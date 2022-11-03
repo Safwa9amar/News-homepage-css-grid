@@ -175,27 +175,27 @@ main h1 {
   grid-column: 1/span 1;
   font-size: 3rem;
 }
-main article {
+main .blala {
   grid-column: 2/span 1;
   display: grid;
   grid-template-areas: "h p p" "h btn btn";
 }
 @media screen and (max-width: 768px) {
-  main article {
+  main .blala {
     display: flex;
     flex-direction: column;
   }
 }
-main article h1 {
+main .blala h1 {
   grid-area: h;
   font-size: 3rem;
   font-weight: 800;
 }
-main article p {
+main .blala p {
   grid-area: p;
   font-size: 1.2rem;
 }
-main article a {
+main .blala a {
   grid-area: btn;
   color: hsl(36deg, 100%, 99%);
   letter-spacing: 3px;
@@ -209,11 +209,11 @@ main article a {
   text-decoration: none;
   text-align: center;
 }
-main article a:hover {
+main .blala a:hover {
   background: hsl(240deg, 100%, 5%);
 }
 @media screen and (max-width: 768px) {
-  main article a {
+  main .blala a {
     width: 50%;
   }
 }
