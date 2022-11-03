@@ -174,8 +174,11 @@ main {
     }
     & h1 {
         grid-column: 1 / span 1;
-
-        font-size: 3rem;
+        font-weight: 700;
+        font-size: 4rem;
+        @media screen and (max-width: $mobile) {
+            font-size: 2.4rem;
+        }
     }
     & .blala {
         @media screen and (max-width: $mobile) {
